@@ -39,7 +39,7 @@ function victory(choice){
     console.log(`User choice: ${choice}; Computer: ${choices[random]}`);
     if(choice === choices[random]){//If they match it's a tie
         alert(`You both chose ${choicesFull[random]} \r\n It's a tie!`);
-        tie++;
+        ties++;
     }
     else if(choice === "R"){//It's not a tie. Let's check if it's a win or a loss.
         if(choices[random] === "P"){//if computer picks paper, what happens?
